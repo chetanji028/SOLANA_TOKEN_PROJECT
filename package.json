@@ -1,0 +1,14 @@
+{
+    "name": "solana-token-project",
+    "version": "1.0.0",
+    "description": "Solana Token Project",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests/token_test.js"
+    },
+    "dependencies": {
+        "@solana/spl-token": "^0.1.8",
+        "@solana/web3.js": "^1.98.0",
+        "mocha": "^9.1.3"
+    }
+}
